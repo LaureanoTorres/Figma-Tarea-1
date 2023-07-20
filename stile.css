@@ -1,0 +1,435 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   /*  width: 1389px;
+    height: 1623px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+   /* -------------------------header--------------------- */
+header{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+}
+.logo{
+    display: flex;
+    width: 10rem;
+}
+.logonaz{
+    height: 10rem;
+    padding-top: 3vh;
+}
+.buttons{
+    display: flex;
+    width: 19.1rem;
+    height: 3.1rem;
+    border-radius: 0.7rem;
+    border: 1px;
+    gap: 2rem;
+   
+}
+.butLog{
+    width: 8.45rem;
+    height: 3.1rem;
+    border-radius: 0.7rem;
+    border: 1px solid;
+    background-color: transparent;
+    font-size: 1.35rem;  
+
+} 
+.NavMob{
+    display: none;
+}
+
+.butReg{
+    width: 8.45rem;
+    height: 3.1rem;
+    border-radius: 0.7rem;
+    border: none;
+    color: white;
+    font-size: 1.35rem;
+    background-color:rgba(255, 199, 39, 1);
+    align-items: center;
+    box-shadow: 4px -4px 28px 0px gray
+}
+
+.logoGris{
+    display: none;
+}
+    
+/*----------------------- Section 1 --------------------  */
+
+.sectionUno{
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 6%;
+}
+
+.imagen-oculta{
+    display: none;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: rgba(82, 66, 66, 1);
+   
+
+}
+.All{
+    font-size: 2.7rem;
+    line-height: 2;
+    font-weight: 600;
+    letter-spacing: 0.1;
+}
+.Docc{
+    font-size: 2.7rem;
+    color: rgba(255, 199, 39, 1);
+    font-weight: 600;
+    letter-spacing: 0.1;
+
+}
+.textito{
+    line-height: 1.5;
+}
+.cuadrado-nube{
+    position: relative;
+}
+.minanube{
+ display: flex;
+}
+
+
+/*----------------------- Section 2 --------------------  */
+.sectionDos{
+    height: 32.5rem;
+    border-radius: 100px 100px 0px 0px;
+    background-color: rgba(223, 234, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    padding: 20px 0px 60px 0px;
+
+}
+
+.Box{
+    background-color:white;
+    width: 363px;
+    height: 530px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px 2px rgba(128, 128, 128, 0.545);
+
+
+}
+.boxInside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1rem;
+}
+.imagen{
+    height: 7.75rem;
+    width: 9rem;
+    justify-content: center;
+}
+.textosSec2{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: rgba(82, 66, 66, 1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0rem;
+    
+}
+.textosSec2yellow{
+    font-size: 2rem;
+    line-height: 0.01;
+    font-weight: 600;
+    color: rgba(255, 199, 39, 1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0rem;
+}
+.texthebest{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+/*----------------------- Section 3 --------------------  */
+.sectionTres{
+    height: 20vh;
+    padding: 3vh 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logofinal{
+  width: 10rem;
+  padding-bottom: 1vh;
+}
+
+.textfinal{
+    color: rgba(134, 123, 123, 1);
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 1px;
+    padding-left: 1.6vw;
+
+}
+
+.follows{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    gap: 2.5rem;
+    font-size: 1.8rem;
+    padding: 1vh 4vw;
+}
+
+.textfollows{
+    color: rgba(119, 119, 119, 1);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: -0.08rem;
+    padding-right: 5vw;
+
+}
+.bi-youtube{
+    color: rgba(229, 0, 0, 1);
+    padding: 1vw;
+
+}
+.bi-facebook{
+    color: rgba(0, 118, 226, 1);
+    padding: 1vw;
+}
+.bi-twitter{
+    color: rgba(0, 197, 197, 1);
+    padding: 1vw;
+}
+
+.textfinalmobile{
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    html{ 
+        font-size: 14px;
+    }
+    body{
+    }
+
+
+    /* ------------------header----------------------- */
+    .buttons{
+        padding-top: 1vh;
+    }
+    .logonaz{
+       height: 8rem;
+    }
+
+    /* -------------------seccion 1------------------ */
+
+   .sectionUno{
+  
+   }
+
+    .textos{
+    }
+    .All{
+        font-size: 1.8rem;
+        line-height: 1.5;
+        font-weight: 600;
+        letter-spacing: 0.1;
+    }
+    .Docc{
+        font-size: 1.8rem;
+        color: rgba(255, 199, 39, 1);
+        font-weight: 600;
+        letter-spacing: 0.1;
+
+    }
+
+    .minanube{
+        width: 20rem; 
+        position: relative;
+        top: 
+    }
+
+    /* ---------seccion 2----------- */
+    .sectionDos{
+        height: 24rem;
+    }   
+    .Box{
+        width: 17rem;
+        height: 21rem;
+        padding: 0 0.5rem;
+    }
+    .textosSec2{
+        font-size: 1.5rem;
+    }
+    .textosSec2yellow{
+        font-size: 1.5rem;
+    }
+    .texthebest{
+        font-size: 0.8rem;
+    }
+   
+/* ----------------seccion 3-------- */
+    .logofinal{
+        width: 8rem;
+        padding-bottom: 1vh;
+
+    }
+    .follows{
+        gap: 1rem;
+    }
+}
+/* -----------------------MOBILE---------------------------- */
+@media screen and (max-width: 360px){
+    body{
+        display: flex;
+    }
+    html{
+        font-size: 17px;
+    }
+    /* ------------------------------------ */
+     
+    .buttons{
+        display: none;
+    }
+    .NavMob{
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.3rem;
+        padding-top: 1.5vh;
+        color: rgb(97, 88, 88);
+    }
+
+    .logonaz{
+        display: none;
+    }
+
+    .logoGris{
+        display: flex;
+        height: 9rem;
+    }
+    /*---------------------------------  */
+   .sectionUno{
+    height: 16vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: ;
+   } 
+    .cuadrado-nube{
+        display: none;
+    }
+    .textos{
+        display: flex;
+        align-self: center;
+    }
+    .All{
+        font-size: 2.4rem;
+    }
+    .Docc{
+        font-size: 2.4rem;
+    }
+    .textito{
+        font-size: 1.2rem;
+    }
+/* ----------------------------------------------- */
+    .sectionDos{
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 70px 70px 0px 0px;
+    }
+
+    .Box{
+        height: 16.5vh;
+        width: 18rem;
+        margin-top: 3%;
+    }
+
+/* ------------------------------------------------------- */
+
+    .sectionTres{
+        height: 23vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 0.5rem;
+
+    }
+
+
+    .logofinal{
+        height: 100%;
+        width: 100%
+    }
+    .follows{
+        display: flex;
+
+    }
+    .textfollows{
+        font-size: 2.4rem;
+        padding-right: 2rem;
+    }
+    .redes{
+        font-size: 2.4rem;
+        padding: 0rem 2rem 0rem;
+    }
+
+    .textfinal{
+        display: none;
+    }
+    .textContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .textfinalmobile{
+        display: flex;
+        font-size: 0.85rem;
+        align-self: end;
+    }
+}
+
+
